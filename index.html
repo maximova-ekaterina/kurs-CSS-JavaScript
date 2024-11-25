@@ -1,0 +1,387 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <script src="jquery-3.7.1.min.js"></script>
+    <title>4SEASONSTRAIL - бегаем в лесах Ленинградской области</title>
+</head>
+<body>
+    <nav>
+        <div class="nav nav-tabs navbar-brand mb-0 h1 bg-dark"  data-bs-theme="dark" id="nav-tab" role="tablist">
+          <button class="nav-link" id="nav-disabled-tab" data-bs-toggle="tab" data-bs-target="#nav-disabled" type="button" role="tab" aria-controls="nav-disabled" aria-selected="false" disabled><img src="./images/4SEASONSTRAIL.png" alt="Logotip"></button>
+          <button class="nav-link active fw-bold" id="nav-home-tab" data-bs-toggle="tab" data-bs-target="#nav-home" type="button" role="tab" aria-controls="nav-home" aria-selected="true">ГЛАВНАЯ</button>
+          <button class="nav-link fw-bold" id="nav-profile-tab" data-bs-toggle="tab" data-bs-target="#nav-profile" type="button" role="tab" aria-controls="nav-profile" aria-selected="false">ПРОЕКТЫ</button>
+          <button class="nav-link fw-bold" id="nav-contact-tab" data-bs-toggle="tab" data-bs-target="#nav-contact" type="button" role="tab" aria-controls="nav-contact" aria-selected="false">КОНТАКТЫ</button>
+          <button class="nav-link" id="nav-disabled-tab" data-bs-toggle="tab" data-bs-target="#nav-disabled" type="button" role="tab" aria-controls="nav-disabled" aria-selected="false" disabled></button>
+        </div>
+      </nav>
+      <div class="tab-content" id="nav-tabContent">
+        <div class="tab-pane fade show active" id="nav-home" role="tabpanel" aria-labelledby="nav-home-tab" tabindex="0">
+          <!-- Главная вкладка -->
+          <div class="card text-bg-dark">
+            <img src="./images/forrestKrelia2.jpg" class="card-img img-responsive w-100" id="imageMainForrest" alt="Kareliaforrest">
+            <div class="card-img-overlay">
+              <h2 class="card-title" id="mainText">Выбери свой трейл <br>с 4SEASONSTRAIL</h2>         
+            </div>
+          </div>
+           <div class="card mb-3" id="textUnderImage">
+            <div class="row g-0">
+              <div class="col-md-4">
+                <img src="./images/4SEASONSTRAIL (1).png" class="img-fluid rounded-start" id="logoImage" alt="logotype">
+              </div>
+              <div class="col-md-8">
+                <div class="card-body" id="textFirstCardUnderImage">
+                  <h5 class="card-title">Мы бегаем по лесам Ленинградской области </h5>
+                  <p class="card-text">Выбираем классические трейлы с набором высоты. Дистанции ориентированы на длительные тренировки по выходным дням. Бегаем в любую погоду при любых условиях. Тренировки направлены на подготовку к целевым стартам, а также просто для тех кто любит длительный бег. </p>
+                </div>
+              </div>
+            </div>
+          </div>          
+            <div class="card text-center mx-auto w-75" id="trainerCard" style="width: 18rem;">
+              <img src="./images/EllipsewithMe.png" class="card-img-top w-50 mx-auto d-block " alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Привет, я Екатерина!</h5>
+                <p class="card-text">Провожу тренировки, передаю беговой опыт, знания о подготовке к забегам, также рассказываю о питании во время забега и восстановления после. В настоящее время готовлюсь к ультрамарафону. <br> Уделяю внимание:</p>
+              </div>
+              <ul class="list-group list-group-flush text-start">
+                <li class="list-group-item">1. тренировкам на выносливость</li>
+                <li class="list-group-item">2. тренировкам по рельефу с набором высоты</li>
+                <li class="list-group-item">3. коротким высокоинтенсивным тренировкам</li>
+              </ul>
+              <div class="card-body">               
+              </div>
+            </div>
+            <div class="row row-cols-1 row-cols-md-3 g-4" id="fotoCards">
+              <div class="col">
+                <div class="card h-100" style="width: 18rem;">
+                  <img src="./images/malidak3.jpg" class="card-img-top" alt="...">
+                  <div class="card-body">
+                    <h5 class="card-title">MALIDAK HARD </h5>
+                    <p class="card-text">Пробежала свой первый горный марафон в 2024 году. 40 км с набором высоты 1900 метров.</p>
+                  </div>
+                  <div class="card-body">
+                    <p><a href="https://malidak.ru/?ysclid=m3vmcqgbmw703394620" class="link-secondary link-offset-2 link-underline-opacity-25 link-underline-opacity-100-hover"  target="_blank">MALIDAK <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-chevron-double-right" viewBox="0 0 16 16">
+                      <path fill-rule="evenodd" d="M3.646 1.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 0 .708l-6 6a.5.5 0 0 1-.708-.708L9.293 8 3.646 2.354a.5.5 0 0 1 0-.708"/>
+                      <path fill-rule="evenodd" d="M7.646 1.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 0 .708l-6 6a.5.5 0 0 1-.708-.708L13.293 8 7.646 2.354a.5.5 0 0 1 0-.708"/>
+                    </svg></a>
+                    </p>                  
+                  </div>
+                </div>
+              </div>
+              <div class="col" >
+                <div class="card h-100" style="width: 18rem;">
+                  <img src="./images/zayacz.jpg" class="card-img-top" alt="...">
+                  <div class="card-body">
+                    <h5 class="card-title">НеМартовский заяц</h5>
+                    <p class="card-text">Горный бег на горнолыжном курорте Игора 18км с набором высоты 1000 метров. Постоянный участник.</p>
+                  </div>
+                  <div class="card-body">
+                    <p><a href="https://vk.com/nemartovskiizayaz?ysclid=m3vmfjltz0424461204" class="link-secondary link-offset-2 link-underline-opacity-25 link-underline-opacity-100-hover" target="_blank">НеМартовский заяц <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-chevron-double-right" viewBox="0 0 16 16">
+                      <path fill-rule="evenodd" d="M3.646 1.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 0 .708l-6 6a.5.5 0 0 1-.708-.708L9.293 8 3.646 2.354a.5.5 0 0 1 0-.708"/>
+                      <path fill-rule="evenodd" d="M7.646 1.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 0 .708l-6 6a.5.5 0 0 1-.708-.708L13.293 8 7.646 2.354a.5.5 0 0 1 0-.708"/>
+                    </svg></a>
+                    </p>                  
+                  </div>
+                </div>
+              </div>
+              <div class="col">
+                <div class="card h-100" style="width: 18rem;">
+                  <img src="./images/hardSelfme.jpg" class="card-img-top" alt="...">
+                  <div class="card-body">
+                    <h5 class="card-title">HARD TRAIL SAND</h5>
+                    <p class="card-text">Классический трейл на 30 км по многообразному покрытию: грунтовые дороги, песчаный карьер, буреломы, болота, лесные торпы, броды. Заняла в 2024 году 3-е место.</p>
+                  </div>
+                  <div class="card-body">
+                    <p><a href="https://hardadventure.ru/sand2023?ysclid=m3vmhyrwuf543667127" class="link-secondary link-offset-2 link-underline-opacity-25 link-underline-opacity-100-hover" target="_blank">HARD TRAIL SAND <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-chevron-double-right" viewBox="0 0 16 16">
+                      <path fill-rule="evenodd" d="M3.646 1.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 0 .708l-6 6a.5.5 0 0 1-.708-.708L9.293 8 3.646 2.354a.5.5 0 0 1 0-.708"/>
+                      <path fill-rule="evenodd" d="M7.646 1.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 0 .708l-6 6a.5.5 0 0 1-.708-.708L13.293 8 7.646 2.354a.5.5 0 0 1 0-.708"/>
+                    </svg></a>
+                    </p>                  
+                  </div>
+                </div>
+              </div>
+              <div class="col mx-auto">
+                <div class="card h-100" style="width: 18rem;">
+                  <img src="./images/alpcorevy.jpg" class="card-img-top" alt="...">
+                  <div class="card-body">
+                    <h5 class="card-title">Соревнования по альптехнике</h5>
+                    <p class="card-text">В рамках альпинизма участвую в соревнованиях на скалах Ленинградской области.</p>
+                  </div>
+                </div>
+              </div>
+              <div class="col">
+                <div class="card h-100" style="width: 18rem;">
+                  <img src="./images/mount.jpg" class="card-img-top" alt="...">
+                  <div class="card-body">
+                    <h5 class="card-title">Альпинизм</h5>
+                    <p class="card-text">Занимаюсь альпинизмом с 2008 года.</p>
+                  </div>
+                </div>
+              </div>
+              <div class="col">
+                <div class="card h-100" style="width: 18rem;">
+                  <img src="./images/cream.jpg" class="card-img-top" alt="...">
+                  <div class="card-body">
+                    <h5 class="card-title">Скалолазание</h5>
+                    <p class="card-text">Занимаюсь скалолазанием. Делаю выезды в разные районы, регионы и страны.</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+              <div class="container-fluid" id="buttonTop">
+                <a href="#top" id="back-to-top" class="back-to-top active"
+                 title="Наверх"><img src="./images/icons8-шеврон-вверх-в-круге-50.png" alt=""></a>
+              </div> 
+                <div class="card card-footer text-bg-dark">                      
+                  <img src="./images/forrestKreliaFooter.jpg" class="card-img img-responsive w-100" id="footerForrest" alt="Kareliaforrest2">
+                </div>      
+            </div>
+        <div class="tab-pane fade" id="nav-profile" role="tabpanel" aria-labelledby="nav-profile-tab" tabindex="0">        
+            <!-- вкладка для Проекта -->
+            <div class="row g-0 bg-body-secondary position-relative">
+                <div class="col-md-6 mb-md-0 p-md-4">                   
+                    <div id="carousel1" class="carousel slide">
+                        <div class="carousel-inner rounded ">
+                          <div class="carousel-item active">
+                            <img src="./images/Suoranda.jpg" class="d-block w-100 rounded" alt="foto">
+                          </div>
+                          <div class="carousel-item">
+                            <img src="./images/Suoranda2.jpg" class="d-block w-100 rounded" alt="foto">
+                          </div>
+                          <div class="carousel-item">
+                            <img src="./images/Suoranda4.jpg" class="d-block w-100 rounded" alt="foto">
+                          </div>
+                        </div>
+                        <button class="carousel-control-prev" type="button" data-bs-target="#carousel1" data-bs-slide="prev">
+                          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                          <span class="visually-hidden">Previous</span>
+                        </button>
+                        <button class="carousel-control-next" type="button" data-bs-target="#carousel1" data-bs-slide="next">
+                          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                          <span class="visually-hidden">Next</span>
+                        </button>
+                      </div>
+                </div>
+                <div class="col-md-6 p-4 ps-md-0">
+                  <h5 class="mt-0">СУОРАНДА</h5>
+                  <p>Тренировка проходит на юго-востоке Ленинградская области в районе Колтушских высот. Бег по полям и частично лесу по мягкому песчаному грунту. </p> <br>
+                  <p class="fw-semibold">Дистанция 20 км | D+200 М</p>
+                  <button type="button" class="btn btn-outline-success" data-bs-toggle="modal" data-bs-target="#exampleModal" data-bs-whatever="@mdo">Выбрать тренировку</button>                                 
+                  <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                    <div class="modal-dialog">
+                      <div class="modal-content">
+                        <div class="modal-header">
+                          <h1 class="modal-title fs-5" id="exampleModalLabel">Новое сообщение</h1>
+                          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                        </div>
+                        <div class="modal-body">
+                          <form>
+                            <div class="mb-3">
+                              <label for="recipient-name" class="col-form-label">Имя:</label>
+                              <input type="text" class="form-control" id="recipient-name">
+                            </div>
+                            <div class="mb-3">
+                              <label for="contacts" class="col-form-label">Контакты:</label>
+                              <input type="text" class="form-control" id="contacts">
+                            </div>
+                            <div class="mb-3">
+                              <label for="message-text" class="col-form-label">Сообщение:</label>
+                              <textarea class="form-control" id="message-text"></textarea>
+                            </div>
+                          </form>
+                        </div>
+                        <div class="modal-footer">
+                          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Закрыть</button>
+                          <button type="button" class="btn btn-outline-success open-modal open" id="button_sand_close" data-bs-dismiss="modal" >Отправить сообщение</button>
+                        </div>
+                      </div>
+                    </div>
+                  </div>              
+                <nav class="navbar navbar-expand-lg bg-body-tertiary d-inline-flex p-2">
+                    <div class="container-md ">
+                      <a class="navbar-brand" href="#"><iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d7992.721507278709!2d30.60579987214572!3d59.94574159869614!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x46962c60b11cb9d5%3A0xe02292436c84829c!2z0KHRg9C-0YDQsNC90LTQsCwg0JvQtdC90LjQvdCz0YDQsNC00YHQutCw0Y8g0L7QsdC7Lg!5e0!3m2!1sru!2sru!4v1732215679687!5m2!1sru!2sru" width="100%" height="100%" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe></a>
+                    </div>
+                  </nav>
+               </div>                                
+             </div>
+              <div class="row g-0 bg-body-secondary position-relative">
+                <div class="col-md-6 mb-md-0 p-md-4"> 
+                    <div id="carousel2" class="carousel slide">
+                        <div class="carousel-inner">
+                          <div class="carousel-item">
+                            <img src="./images/Orehovo.jpg" class="d-block w-100 rounded" alt="foto1">
+                          </div>
+                          <div class="carousel-item active">
+                            <img src="./images/Orehovo5.jpg" class="d-block w-100 rounded" alt="foto2">
+                          </div>
+                          <div class="carousel-item">
+                            <img src="./images/Orehovo6.jpg" class="d-block w-100 rounded" alt="foto3">
+                          </div>
+                        </div>
+                        <button class="carousel-control-prev" type="button" data-bs-target="#carousel2" data-bs-slide="prev">
+                          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                          <span class="visually-hidden">Previous</span>
+                        </button>
+                        <button class="carousel-control-next" type="button" data-bs-target="#carousel2" data-bs-slide="next">
+                          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                          <span class="visually-hidden">Next</span>
+                        </button>
+                      </div>
+                </div>
+                <div class="col-md-6 p-4 ps-md-0">
+                  <h5 class="mt-0">ОРЕХОВО</h5>
+                  <p>Тренировка проходит на севере Ленинградской области. Трек частично пересекает велосипедный туристический маршрут по Карельскому перешейку «От Орехово до Ладоги». Классический трейл по лесным тропам.</p>
+                  <p class="fw-semibold">Дистанция 35 км | D+350 М</p>
+                  <button type="button" class="btn btn-outline-success" data-bs-toggle="modal" data-bs-target="#exampleModal" data-bs-whatever="@mdo">Выбрать тренировку</button>                                  
+                  <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                    <div class="modal-dialog">
+                      <div class="modal-content">
+                        <div class="modal-header">
+                          <h1 class="modal-title fs-5" id="exampleModalLabel">Новое сообщение</h1>
+                          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                        </div>
+                        <div class="modal-body">
+                          <form>
+                            <div class="mb-3">
+                              <label for="recipient-name" class="col-form-label">Имя:</label>
+                              <input type="text" class="form-control" id="recipient-name">
+                            </div>
+                            <div class="mb-3">
+                              <label for="contacts" class="col-form-label">Контакты:</label>
+                              <input type="text" class="form-control" id="contacts">
+                            </div>
+                            <div class="mb-3">
+                              <label for="message-text" class="col-form-label">Сообщение:</label>
+                              <textarea class="form-control" id="message-text"></textarea>
+                            </div>
+                          </form>
+                        </div>
+                        <div class="modal-footer">
+                          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Закрыть</button>
+                          <button type="button" class="btn outline-success" data-bs-dismiss="modal">Отправить сообщение</button>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <nav class="navbar navbar-expand-lg bg-body-tertiary d-inline-flex p-2">
+                    <div class="container-md">
+                      <a class="navbar-brand" href="#"><iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d31440.40123205546!2d30.233404411156844!3d60.49431515082421!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4697989c1485fef5%3A0xc838c680e504c5a8!2z0J7RgNC10YXQvtCy0L4sINCb0LXQvdC40L3Qs9GA0LDQtNGB0LrQsNGPINC-0LHQuy4sIDE4ODczMQ!5e0!3m2!1sru!2sru!4v1732268373615!5m2!1sru!2sru" width="100%" height="100%" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe></a>
+                    </div>
+                  </nav>
+                </div>
+              </div>
+              <div class="row g-0 bg-body-secondary position-relative">
+                <div class="col-md-6 mb-md-0 p-md-4">
+                    <div id="carouselThird" class="carousel slide">
+                        <div class="carousel-inner">
+                          <div class="carousel-item active">
+                            <img src="./images/Dudergof5.jpg" class="d-block w-100 rounded" alt="foto1">
+                          </div>
+                          <div class="carousel-item">
+                            <img src="./images/Dudergof6.jpg" class="d-block w-100 rounded" alt="foto2">
+                          </div>
+                          <div class="carousel-item  active">
+                            <img src="./images/Dudergof7.jpg" class="d-block w-100 rounded" alt="foto3">
+                          </div>
+                        </div>
+                        <button class="carousel-control-prev" type="button" data-bs-target="#carouselThird" data-bs-slide="prev">
+                          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                          <span class="visually-hidden">Previous</span>
+                        </button>
+                        <button class="carousel-control-next" type="button" data-bs-target="#carouselThird" data-bs-slide="next">
+                          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                          <span class="visually-hidden">Next</span>
+                        </button>
+                      </div>
+                </div>
+                <div class="col-md-6 p-4 ps-md-0">
+                  <h5 class="mt-0">ДУДЕРГОФСКИЕ ВЫСОТЫ</h5>
+                  <p>Трек проложен в парке Дудергофские высоты. Бег с набором высоты, максимально высокая точка на горе Ореховая  - 176 метров. Подходит для интенсивных тренировок и подготовки к горному бегу.</p>
+                  <p class="fw-semibold">Дистанция 15 км | D+600 М</p>
+                  <button type="button" class="btn btn-outline-success" data-bs-toggle="modal" data-bs-target="#exampleModal" data-bs-whatever="@mdo">Выбрать тренировку</button>                                  
+                  <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                    <div class="modal-dialog">
+                      <div class="modal-content">
+                        <div class="modal-header">
+                          <h1 class="modal-title fs-5" id="exampleModalLabel">Новое сообщение</h1>
+                          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Закрыть"></button>
+                        </div>
+                        <div class="modal-body">
+                          <form>
+                            <div class="mb-3">
+                              <label for="recipient-name" class="col-form-label">Имя:</label>
+                              <input type="text" class="form-control" id="recipient-name">
+                            </div>
+                            <div class="mb-3">
+                              <label for="contacts" class="col-form-label">Контакты:</label>
+                              <input type="text" class="form-control" id="contacts">
+                            </div>
+                            <div class="mb-3">
+                              <label for="message-text" class="col-form-label">Сообщение:</label>
+                              <textarea class="form-control" id="message-text"></textarea>
+                            </div>
+                          </form>
+                        </div>
+                        <div class="modal-footer">
+                          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Закрыть</button>
+                          <button type="button" class="btn outline-success" data-bs-dismiss="modal">Отправить сообщение</button>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <nav class="navbar navbar-expand-lg bg-body-tertiary d-inline-flex p-2">
+                    <div class="container-md">
+                      <a class="navbar-brand" href="#"><iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2013.1310480999466!2d30.128807276493927!3d59.697380474794585!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4696181c28c5f753%3A0xd0bcf76def665fd3!2z0J_QsNC80Y_RgtC90LjQuiDQv9GA0LjRgNC-0LTRiyDRgNC10LPQuNC-0L3QsNC70YzQvdC-0LPQviDQt9C90LDRh9C10L3QuNGPIMKr0JTRg9C00LXRgNCz0L7RhNGB0LrQuNC1INCy0YvRgdC-0YLRi8K7!5e0!3m2!1sru!2sru!4v1732268840344!5m2!1sru!2sru" width="100%" height="100%" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe></a>
+                    </div>
+                  </nav>
+                </div>
+              </div>             
+        </div>
+        <div class="tab-pane fade" id="nav-contact" role="tabpanel" aria-labelledby="nav-contact-tab" tabindex="0">
+            <!-- вкладка для блока Контакты -->
+            <div class="card text-center sticky-top card-top" >
+                <div class="card-header text-secondary">
+                  КОНТАКТЫ
+                </div>
+                <div class="card-body">
+                  <h5 class="card-title">Екатерина Максимова</h5>
+                    <div id="demoModalShadow" class="demoModalShadow">
+                      <form id="demoModal" class="demoModal">
+                          <h2>Узнать о тренировках</h2>
+                          <div id="demoModalInfo" class="demoModal__info">
+                              <label for="name">Имя</label>
+                              <input type="name" name="name" id="name" placeholder="your name" required>
+                              <label for="email">E-mail</label>
+                              <input type="email" name="email" id="email" placeholder="your@email.com" required>
+                              <label for="message">Сообщение</label>
+                              <input type="message" name="message" id="message" placeholder="your message" required>
+                          </div>
+                          <div class="demoModal__actions">
+                              <input type="submit" id="demoModalSubscribe" class="demoModal__button active" value="Отправить">
+                              <input type="button" id="demoModalClose" class="demoModal__button close" value="Закрыть">
+                          </div>
+                      </form>
+                  </div>                          
+                     <button id="demoModalStart" class="demoModalStart active">Отправить сообщение</button>                                                   
+                  <a href="https://vk.com/feed" class="vk" target="_blank"><img src="./images/icons8-vk-48.png" alt="logoVK"></a>
+                  <a href="https://t.me/KatreenMax" class="telegram" target="_blank"><img id="telegram" src="./images/icons8-telegram-48.png" alt="logoTelegram"></a>
+                  <a href="mailto:skoropedanext@gmail.com" class="mail" target="_blank"><img src="./images/icons8-mail-48.png" alt="logoEmail"></a>
+                </div>
+                <div class="image_drop">
+                    <img src="./images/Vector.png" alt="drop">
+                  </div>
+                <div class="card-footer text-body-secondary">
+                    All Rights reserved &copy; Copyright 2024, MAKSIMOVA EKATERINA
+                </div>                              
+            </div>
+        </div>
+        <!-- теневая вкладка -->
+        <div class="tab-pane fade" id="nav-disabled" role="tabpanel" aria-labelledby="nav-disabled-tab" tabindex="0">...</div>
+      </div>
+    <script src="./main.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+</body>
+</html>
